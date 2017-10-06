@@ -37,6 +37,17 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Товары.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="f84ec099-3f91-439e-a57b-bf36a961a3b0">
+    <name>ВидТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид товара</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыТовара</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <forms uuid="cff0e816-434c-402a-95b9-274128fa87c5">
     <name>ФормаЭлемента</name>
     <synonym>

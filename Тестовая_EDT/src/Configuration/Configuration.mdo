@@ -31,6 +31,9 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <eventSubscriptions>EventSubscription.ПередЗаписьСправочника</eventSubscriptions>
   <catalogs>Catalog.Товары</catalogs>
   <enums>Enum.ВидыТовара</enums>
 </mdclass:Configuration>
